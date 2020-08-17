@@ -12,12 +12,13 @@ class App extends React.Component {
   }
 }
   componentDidMount() {
-    fetch('https://api.spoonacular.com/recipes/complexSearch')
-    .then(response => response.json())
-    .then(data => {
-      this.setState({ data })
-      console.log(data)
+    axios.get('https://www.themealdb.com/api/json/v1/1/categories.php')
+    .then(response =>  {
+     console.log(response.data);
     })
+    .catch(error => {
+      console.log(error);
+    });
   }
   render() {
   return (
