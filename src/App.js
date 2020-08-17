@@ -24,7 +24,7 @@ class App extends React.Component {
     const { imageURL } = this.state;
   return (
     <div className="App">
-      <img src={imageURL} alt=''/>
+      <img src={imageURL} alt='text describing img'/>
       <Header/>
       <Footer/>
     </div>
