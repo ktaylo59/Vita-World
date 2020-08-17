@@ -3,7 +3,11 @@ import './index.css';
 
 class Index extends React.Component {
     render() {
-        return <h2>VITA-WORLD</h2>
+        return (
+            <nav className='navigation'>
+            <h2>VITA-WORLD</h2>
+            </nav>
+            )
     }
 }
 
