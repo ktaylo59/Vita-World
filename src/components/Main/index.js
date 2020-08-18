@@ -5,7 +5,7 @@ class Main extends React.Component {
         return (
             <div className='main'>
                <h1> What do you want to 
-                <br>
+                <br></br>
                 eat?</h1>
             </div>
             )
