@@ -8,8 +8,8 @@ class Main extends React.Component {
                <h1> What do you want to 
                 <br></br>
                 eat?</h1>
-                <img src={plate} alt="plate-fork-spoon" />
-                <input id='field' type="text" placeholder="Enter here" />   
+                  <img src={plate} alt="plate-fork-spoon" />
+                    <input id='field' type="text" placeholder="Enter here" />   
                 <button>Submit</button>
             </div>
             )
