@@ -29,6 +29,7 @@ class App extends React.Component {
       <Header/>
       {/* <img src={ data } alt='text describing img'/> */}
       <Main />
+      <img src={plate} alt="plate-fork-spoon" />
       <Footer/>
     </div>
   );
