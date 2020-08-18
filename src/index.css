@@ -12,3 +12,10 @@ code {
     monospace;
 }
 
+.footer{
+  background-color:yellowgreen;
+  color:darkred;
+  height:30px;
+  width:100%;
+  text-align: center;
+}
