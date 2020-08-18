@@ -41,7 +41,7 @@ handleChange = (e) => {
       
       <Header/>
       {/* <img src={ data } alt='text describing img'/> */}
-      <Main img src={plate} alt='plate' />
+      <Main img src={plate} alt='plate' handleChange={this.handleChange} handleSubmit={this.handleSubmit}/>
       
       <Footer/>
     </div>
