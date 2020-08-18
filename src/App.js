@@ -5,27 +5,29 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 
 class App extends React.Component {
-  constructor (props) {
-    super(props)
+  constructor () {
+    super()
     this.state = {
-      imageURL: '',   
+      data: [],   
   }
 }
   componentDidMount() {
     axios.get('https://www.themealdb.com/api/json/v1/1/categories.php')
     .then(response =>  {
-     this.setState({ imageURL: response.data.message });
+     console.log(response.data);
     })
     .catch(error => {
       console.log(error);
     });
   }
   render() {
-    const { imageURL } = this.state;
+   
   return (
     <div className="App">
-      <img src={imageURL} alt='text describing img'/>
+      
       <Header/>
+      {/* <img src={ data } alt='text describing img'/> */}
+
       <Footer/>
     </div>
   );
