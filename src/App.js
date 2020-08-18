@@ -18,7 +18,9 @@ class App extends React.Component {
   handleSubmit = (e) => {
     e.preventDefault()
       console.log('handleSubmit');
-    let selectedRecipe = this.state.data.filter (item => item.strCategory  === this.state.recipe)
+      console.log(this.state.data);
+
+    let selectedRecipe = this.state.data.filter(item => item.strCategory  === this.state.recipe) 
     console.log(selectedRecipe);
     this.setState({ filtered: selectedRecipe})
   }
@@ -30,7 +32,7 @@ handleChange = (e) => {
   componentDidMount() {
     axios.get('https://www.themealdb.com/api/json/v1/1/categories.php')
     .then(response =>  {
-     this.setState({ data: response.data}) 
+     this.setState({ data: response.data.categories}) 
      console.log(response.data);
 
     })

@@ -1,13 +1,12 @@
 import React from 'react';
 
-class Food extends Component {
-
-    render () {
-        return ( 
-            <form>
+function Food(props) {
+    return ( 
+            <div>
               
-            </form>
+            </div>
       ) 
 
     }
-}
+
+    export default Food;
