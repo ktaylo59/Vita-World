@@ -18,7 +18,9 @@ class App extends React.Component {
   handleSubmit = (e) => {
     e.preventDefault()
       console.log('handleSubmit');
-    this.state.data.filter(item => null === list.state.recipe)
+    let selectedRecipe = this.state.data.filter (item => item.strCategory  === this.state.recipe)
+    console.log(selectedRecipe);
+    this.setState({ filtered: selectedRecipe})
   }
 handleChange = (e) => {
   this.setState({ recipe: e.target.value}) 
