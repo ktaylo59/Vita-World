@@ -32,8 +32,8 @@ code {
 .main {
   background-image: url("./assets/plate-fork-spoon.jpg");
   width: 100%;
-  height: auto;
-  background: norepeat;
+  height: 200px;
+  position: relative;
 }
 
 
