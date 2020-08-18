@@ -11,7 +11,8 @@ class App extends React.Component {
     super()
     this.state = {
       data: [],
-      recipe: ''   
+      recipe: '', 
+      filtered: []  
   }
 }
   handleSubmit = (e) => {
