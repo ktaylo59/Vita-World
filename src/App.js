@@ -4,6 +4,7 @@ import axios from 'axios';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Main from './components/Main';
+import plate from './assets/plate-fork-spoon.jpg';
 
 class App extends React.Component {
   constructor () {
