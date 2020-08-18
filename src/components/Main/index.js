@@ -4,9 +4,9 @@ class Main extends React.Component {
     render() {
         return (
             <div className='main'>
-                What do you want to 
+               <h1> What do you want to 
                 <br>
-                eat?
+                eat?</h1>
             </div>
             )
     }
