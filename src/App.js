@@ -49,7 +49,7 @@ handleChange = (e) => {
       <Header/>
       {/* <img src={ data } alt='text describing img'/> */}
       <Main img src={plate} alt='plate' handleChange={this.handleChange} handleSubmit={this.handleSubmit}/>
-      <Food />
+      <Food filter={this.state.filtered}/>
       <Footer/>
     </div>
   );
