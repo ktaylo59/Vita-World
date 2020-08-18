@@ -33,7 +33,6 @@ code {
   background-image: url("./assets/plate-fork-spoon.jpg");
   width: 300px;
   height: 300px;
-  resize: both;
-  overflow: scroll;
+  
 }
 
