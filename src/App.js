@@ -30,7 +30,7 @@ class App extends React.Component {
       <Header/>
       {/* <img src={ data } alt='text describing img'/> */}
       <Main img src={plate} alt='plate' />
-      {/* <img src={plate} alt='plate' /> */}
+      
       <Footer/>
     </div>
   );
