@@ -10,13 +10,14 @@ class App extends React.Component {
   constructor () {
     super()
     this.state = {
-      data: [],   
+      data: [],
+      recipe: ''   
   }
 }
   handleSubmit = (e) => {
     e.preventDefault()
       console.log('handleSubmit');
-
+ 
   }
 handleChange = (e) => {
   this.setState({ data: e.target.value}) 
