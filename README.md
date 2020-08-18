@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Users: Anyone who enjoys food
+Problem: Site helps user render recipe ideas
 ## Available Scripts
 
 In the project directory, you can run:
