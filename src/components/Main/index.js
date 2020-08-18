@@ -1,5 +1,5 @@
 import React from 'react';
-
+import plate from './assets/plate-fork-spoon.jpg';
 
 class Main extends React.Component {
     render() {
