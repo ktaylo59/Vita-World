@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 class Main extends React.Component {
     render() {
         return (
@@ -7,6 +8,7 @@ class Main extends React.Component {
                <h1> What do you want to 
                 <br></br>
                 eat?</h1>
+                <img src={plate} alt="plate-fork" />
                 <input id='field' type="text" placeholder="Enter here" />   
                 <button>Submit</button>
             </div>
