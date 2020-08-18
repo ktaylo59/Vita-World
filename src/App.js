@@ -18,7 +18,9 @@ class App extends React.Component {
       console.log('handleSubmit');
 
   }
-handleChange = (e)
+handleChange = (e) => {
+  this.setState({ data: e.target.value}) 
+}
 
   componentDidMount() {
     axios.get('https://www.themealdb.com/api/json/v1/1/categories.php')
