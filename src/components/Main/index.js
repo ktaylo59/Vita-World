@@ -8,6 +8,7 @@ class Main extends React.Component {
                 <br></br>
                 eat?</h1>
                 <input id='field' type="text" placeholder="Enter here" />   
+                <button>Submit</button>
             </div>
             )
     }
