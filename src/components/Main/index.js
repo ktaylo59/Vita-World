@@ -4,7 +4,7 @@ import React from 'react';
 class Main extends React.Component {
     render() {
         return (
-            <form className='main' onSubmit={  }>
+            <form className='main' onSubmit={ this.props.handleSubmit }>
                <h1> What do you want to 
                 <br></br>
                 eat?</h1>
