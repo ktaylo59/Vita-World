@@ -20,7 +20,7 @@ class App extends React.Component {
  
   }
 handleChange = (e) => {
-  this.setState({ data: e.target.value}) 
+  this.setState({ recipe: e.target.value}) 
 }
 
   componentDidMount() {
