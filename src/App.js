@@ -21,7 +21,7 @@ class App extends React.Component {
       console.log('handleSubmit');
       console.log(this.state.data);
 
-    let selectedRecipe = this.state.data.filter(item => item.strCategory  === this.state.recipe) 
+    let selectedRecipe = this.state.data.filter(item => item.strCategory.toLowerCase()  === this.state.recipe.toLowerCase()) 
     console.log(selectedRecipe);
     this.setState({ filtered: selectedRecipe})
   }
