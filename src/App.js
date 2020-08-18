@@ -13,10 +13,19 @@ class App extends React.Component {
       data: [],   
   }
 }
+  handleSubmit = (e) => {
+    e.preventDefault()
+      console.log('handleSubmit');
+
+  }
+handleChange = (e)
+
   componentDidMount() {
     axios.get('https://www.themealdb.com/api/json/v1/1/categories.php')
     .then(response =>  {
+     this.setState({ data: response.data}) 
      console.log(response.data);
+
     })
     .catch(error => {
       console.log(error);
