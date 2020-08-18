@@ -21,6 +21,7 @@ class App extends React.Component {
   }
 handleChange = (e) => {
   this.setState({ recipe: e.target.value}) 
+  console.log(this.state.recipe);
 }
 
   componentDidMount() {
