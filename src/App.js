@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import Main from './components/Main';
 import plate from './assets/plate-fork-spoon.jpg';
 import Food from './components/Main/food';
+import NavBar from './components/NavBar';
 
 class App extends React.Component {
   constructor () {
@@ -45,7 +46,7 @@ handleChange = (e) => {
    
   return (
     <div className="App">
-      
+      <NavBar/>
       <Header/>
       {/* <img src={ data } alt='text describing img'/> */}
       <Main img src={plate} alt='plate' handleChange={this.handleChange} handleSubmit={this.handleSubmit}/>
