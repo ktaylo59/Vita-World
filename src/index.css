@@ -30,7 +30,8 @@ code {
 }
 
 .main {
-  background-image: url("./assets/plate-fork-spoon.jpg")
+  background-image: url("./assets/plate-fork-spoon.jpg");
   width: 300px;
+  height: 300px;
 }
 
