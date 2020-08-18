@@ -12,6 +12,14 @@ code {
     monospace;
 }
 
+.navigation{
+  background-color:black;
+  color:darkred;
+  height:60px;
+  width:100%;
+ 
+  }
+
 .footer{
   background-color:yellowgreen;
   color:darkred;
@@ -20,12 +28,3 @@ code {
   text-align: center;
 }
 
-.navigation{
-  background-color:black;
-  color:darkred;
-  height:60px;
-  width:100%;
-  margin-top: -60px;
-  text-align: justify;
-  position: fixed;
-  }
