@@ -6,7 +6,7 @@ class Footer extends React.Component {
         return (
             <div className='footer'>
                 This app is created only for educational purposes
-                </div>
+            </div>
             )
     }
 }
